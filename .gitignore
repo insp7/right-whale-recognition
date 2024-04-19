@@ -3,6 +3,5 @@ dataset/
 models/
 
 *.jpg
-*.csv
 *.json
 *.h5
