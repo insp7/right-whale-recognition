@@ -1,0 +1,11 @@
+Unlike many commonly cited classification tasks which is to 
+classify images into different species (bird, tree leaves, dogs in ImageNet), 
+this task is to classify images of the same species into different individuals. 
+So the classifier must pick up the fine details of the 
+callosity patterns regardless of image perspective and exposure etc.
+- http://felixlaumon.github.io/2015/01/08/kaggle-right-whale.html
+
+Since the task was a bit confusing at first, let me reiterate it and clarify what it is: 
+We're trying to identify which whale appears in each image, categorized by whaleID in our dataframe. 
+We are not identifying whales by species, but instead whether it's Kayla, Takara, etc.
+- https://www.kaggle.com/code/lucasgvazquez/road-to-the-top-part-1-a-dive-to-the-bottom/notebook
