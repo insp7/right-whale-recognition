@@ -1,0 +1,10 @@
+papers/
+dataset/
+models/
+wandb/
+vit-base-beans/
+
+image_info.csv
+
+*.jpg
+*.h5

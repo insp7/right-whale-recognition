@@ -1,0 +1,36 @@
+Unlike many commonly cited classification tasks which is to 
+classify images into different species (bird, tree leaves, dogs in ImageNet), 
+this task is to classify images of the same species into different individuals. 
+So the classifier must pick up the fine details of the 
+callosity patterns regardless of image perspective and exposure etc.
+- http://felixlaumon.github.io/2015/01/08/kaggle-right-whale.html
+
+Since the task was a bit confusing at first, let me reiterate it and clarify what it is: 
+We're trying to identify which whale appears in each image, categorized by whaleID in our dataframe. 
+We are not identifying whales by species, but instead whether it's Kayla, Takara, etc.
+- https://www.kaggle.com/code/lucasgvazquez/road-to-the-top-part-1-a-dive-to-the-bottom/notebook
+
+
+Removed annotation: 
+w_7489.jpg,whale_70138,1660.04386839,1343.55333998,1396.64207378,1268.00398804
+
+
+https://arxiv.org/pdf/1604.05605 -
+
+Some of the labels only included a single image of the whale. 
+
+The raw images from the dataset were a very large resolution. Operating on such images would
+require massive processing power. In addition much of the visible area of each image was taken
+up by the water.
+
+
+file:///D:/Downloads/North_Atlantic_right_whale_localization_and_recogn.pdf -
+
+These images were captured during several aerial surveys
+and under different lighting and environmental conditions
+
+In addition to these variations, there are many other obstacles, which make these images very
+challenging. For instance, for many whales the head is not clear because the whale is blowing
+water 
+
+The size of the whale with respect to the background (such as the one in image B2) is another challenge.
