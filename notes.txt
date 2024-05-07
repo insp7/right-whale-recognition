@@ -34,3 +34,8 @@ challenging. For instance, for many whales the head is not clear because the wha
 water 
 
 The size of the whale with respect to the background (such as the one in image B2) is another challenge.
+
+
+removed entries for following files from whale_face_bounding_box_coordinates.csv:
+
+['w_1300.jpg' 'w_4876.jpg' 'w_9200.jpg', 'w_7489']
