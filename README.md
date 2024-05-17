@@ -1,4 +1,4 @@
-# Right Whale Recognition -- Kaggle Challenge (2015-17)
+# Right Whale Recognition -- Kaggle Challenge
 A computer vision task to identify individual Right whales from images, aiding in population tracking and monitoring. The challenge aimed to automate the manual, time-consuming process of whale identification used by marine biologists.
 
 From Wikipedia:
